@@ -1,7 +1,9 @@
 :root {
   --primaryTextColor: #212121;
+  --secTextColor: #566573;
   --boxShadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  --bgColorContainer: rgba(144, 238, 144, 0.5);
   --timingFn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -19,11 +21,11 @@ html {
 
 body {
   margin: 0;
+  padding: 60px 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: var(--primaryTextColor);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-image: url('./img/bg.jpg');
 }
 
 img {

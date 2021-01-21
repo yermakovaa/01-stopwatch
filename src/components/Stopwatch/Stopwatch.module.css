@@ -1,0 +1,35 @@
+.time {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.wrapperBtn {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 22px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(10, 120, 10);
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8),
+    inset rgba(0, 0, 0, 0.3) -5px -5px 8px 5px,
+    inset rgba(255, 255, 255, 0.5) 5px 5px 8px 5px,
+    1px 1px 1px rgba(255, 255, 255, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+.btn:disabled {
+  background-color: #778899;
+}

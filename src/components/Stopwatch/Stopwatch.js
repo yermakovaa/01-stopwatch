@@ -50,11 +50,17 @@ export default function Stopwatch() {
     <>
       <div className={s.time}>{displayStopwatch(time)}</div>
       <div className={s.wrapperBtn}>
-        <button onClick={handleClick}>{!isActive ? 'Start' : 'Stop'}</button>
-        <button onDoubleClick={handleWait} disabled={!isActive}>
+        <button onClick={handleClick} className={s.btn}>
+          {!isActive ? 'Start' : 'Stop'}
+        </button>
+        <button
+          onDoubleClick={handleWait}
+          disabled={!isActive}
+          className={s.btn}
+        >
           Wait
         </button>
-        <button onClick={handleReset} disabled={!isActive}>
+        <button onClick={handleReset} disabled={!isActive} className={s.btn}>
           Reset
         </button>
       </div>
