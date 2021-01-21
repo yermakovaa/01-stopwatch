@@ -1,6 +1,6 @@
 {
-  "name": "01-stopwatch",
-  "homepage": "https://yermakovaa.github.io/01-stopwatch",
+  "name": "stopwatch",
+  "homepage": "https://yermakovaa.github.io/stopwatch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
